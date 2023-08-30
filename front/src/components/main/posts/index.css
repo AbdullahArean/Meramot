@@ -1,0 +1,9 @@
+.stack-index{
+    display: flex;
+    width: 100%;
+}
+.stack-index-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

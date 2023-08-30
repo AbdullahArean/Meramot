@@ -1,0 +1,42 @@
+.main-desc {
+    display: flex;
+    width: 80%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.info>p {
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0 10px;
+}
+
+.info>p>span {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0 5px;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.all-options>.MuiSvgIcon-root {
+    color: rgba(0, 0, 0, 0.25);
+    font-size: large;
+    margin: 5px 0;
+}
+.main-answer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.main-answer>button{
+    margin-top: 40px;
+    max-width: fit-content;
+    margin-left: auto;
+}
